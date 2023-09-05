@@ -1,0 +1,48 @@
+.price-layout {
+  display: flex;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column; 
+  
+  margin-right: -5px;
+}
+
+.price-layout h1{
+  color: black;
+  margin-left: 130px;
+  margin-top: 50px;
+  margin-bottom: -50px; 
+}
+
+.price-layout h2{
+    color: black;
+    margin-left: 130px;
+    margin-top: 50px;
+    font-weight: normal;
+}
+
+  table {
+    width: 100%; 
+    border: 2px solid #000;
+    border-collapse: collapse; 
+  }
+  
+  
+  thead th {
+    padding: 6px;
+    text-align: center;
+    border-bottom: 2px solid #000;
+  }
+
+  td {
+    padding: 6px;
+    text-align: center;
+    border-bottom: 1px solid #000; 
+  }
+  
+  
+  table img {
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+  

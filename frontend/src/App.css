@@ -1,0 +1,21 @@
+.page-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  background-color:white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #000;
+}
+
+header a {
+  color: black; 
+  text-decoration: none;
+  margin-left: 50px;
+}

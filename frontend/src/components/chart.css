@@ -1,0 +1,53 @@
+.chart-layout {
+  max-width: 1000px;
+  max-height: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.chart-layout h3 {
+  font-size: 26px;
+  margin-top: 55px;
+}
+
+.price-buttons {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  overflow-y: auto;
+}
+
+.price-buttons button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: black;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.price-buttons button:hover {
+  background-color: white;
+  color: black
+}
+
+
+.time-buttons {
+  text-align: center;
+  font-size: 2xl;
+  display: flex;
+  gap: 205px;
+}
+
+.time-buttons button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: black;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.time-buttons button:hover {
+  background-color: white;
+  color: black
+}
